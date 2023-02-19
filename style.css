@@ -3,7 +3,14 @@
     transition: 0.5s;
 }
 #hov:hover{
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
     background-color: #3F87F5;
     box-shadow: 2px 10px 12px 1px rgb(209, 223, 249);
+}
+#color-w{
+    background-color: #f9daee;
+    transition: 0.5s;
+}
+#hov:hover #color-w{
+    background-color: #fff;
 }
